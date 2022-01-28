@@ -1,0 +1,11 @@
+.header__bg {
+  background-color: #fff;
+}
+
+.header__conteudo {
+  display: flex;
+  max-width: 375px;
+  box-sizing: border-box;
+  margin: 8px auto;
+  gap: 20px;
+}
