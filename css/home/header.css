@@ -1,11 +1,18 @@
 .header__bg {
   background-color: #fff;
+  box-shadow: 0 2px 4px #cecece;
 }
 
 .header__conteudo {
   display: flex;
+  justify-content: space-between ;
+  align-items: center;
   max-width: 375px;
   box-sizing: border-box;
-  margin: 8px auto;
-  gap: 20px;
+  margin: 0px auto;
+  padding: 24px 16px;
+}
+
+.header__menu-desk {
+  display: none;
 }
