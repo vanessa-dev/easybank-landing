@@ -1,0 +1,6 @@
+.ilustracao-bg {
+  background: url('../../images/bg-intro-mobile.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 423px;
+}
