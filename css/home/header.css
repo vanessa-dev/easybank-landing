@@ -1,6 +1,10 @@
 .header__bg {
   background-color: #fff;
   box-shadow: 0 2px 4px #cecece;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .header__conteudo {
