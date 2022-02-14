@@ -3,4 +3,37 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 423px;
+
+}
+
+.ilustracao-bg,
+.ilustracao-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ilustracao-conteudo {
+ color: #9698a6;
+ padding: 4px 8px;
+}
+
+.ilustracao-conteudo p {
+ max-width: 60ch;
+}
+
+.ilustracao-conteudo h1{
+ color: #2d314d;
+}
+
+.ilustracao-conteudo h1 {
+  text-align: center;
+}
+
+.ilustracao-conteudo a {
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 40px;
+  font-weight: 700;
 }
