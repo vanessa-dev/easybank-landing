@@ -11,12 +11,32 @@
   display: flex;
   justify-content: space-between ;
   align-items: center;
-  max-width: 375px;
   box-sizing: border-box;
-  margin: 0px auto;
   padding: 24px 16px;
 }
 
-.header__menu-desk {
+.header__menu-desk,
+.header__conteudo a.botao  {
   display: none;
+}
+
+.header__menu-desk ul li a{
+ color: #9698a6;
+ padding: 8px 12px;
+}
+
+li + li {
+ margin-left: 6px;
+}
+
+@media (min-width: 768px)
+{
+  .header__menu-desk,
+  .header__conteudo a.botao  {
+    display: block;
+  }
+
+  .header__menu-mobile {
+    display: none;
+  }
 }

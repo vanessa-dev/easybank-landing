@@ -30,10 +30,3 @@
   text-align: center;
 }
 
-.ilustracao-conteudo a {
-  background: linear-gradient(to right, #31d35c, #2bb7da);
-  color: #fff;
-  padding: 14px 28px;
-  border-radius: 40px;
-  font-weight: 700;
-}
