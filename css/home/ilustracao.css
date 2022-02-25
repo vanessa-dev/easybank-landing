@@ -1,7 +1,6 @@
 .ilustracao-bg {
-  background: url('../../images/bg-intro-mobile.svg');
+  background: url('../../images/bg-intro-mobile.svg') no-repeat;
   background-size: cover;
-  background-repeat: no-repeat;
   height: 423px;
 
 }
@@ -30,3 +29,15 @@
   text-align: center;
 }
 
+@media (min-width: 768px)
+{
+  .ilustracao-bg {
+    flex-direction: row-reverse;
+  }
+
+  .ilustracao-bg {
+    background: url('../../images/bg-intro-desktop.svg') no-repeat;  
+    background-position: top -150px right -350px;
+    height: 100%;
+  }
+}
