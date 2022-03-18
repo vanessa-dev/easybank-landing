@@ -5,29 +5,25 @@
 
 }
 
-.ilustracao-bg,
-.ilustracao-conteudo {
+.ilustracao-bg{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 20px;
 }
 
 .ilustracao-conteudo {
- color: #9698a6;
- padding: 4px 8px;
+  color: #9698a6;
+  padding: 4px 8px;
+  max-width: 40ch;
+  margin: auto 0;
 }
 
-.ilustracao-conteudo p {
- max-width: 60ch;
-}
+
 
 .ilustracao-conteudo h1{
  color: #2d314d;
 }
 
-.ilustracao-conteudo h1 {
-  text-align: center;
-}
 
 @media (min-width: 768px)
 {
@@ -37,7 +33,7 @@
 
   .ilustracao-bg {
     background: url('../../images/bg-intro-desktop.svg') no-repeat;  
-    background-position: top -150px right -350px;
-    height: 100%;
+    background-position: top -150px right -400px;
+    height: 700px;
   }
 }
