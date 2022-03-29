@@ -31,9 +31,19 @@
     flex-direction: row-reverse;
   }
 
+  .ilustracao-bg  p { 
+    color: #fff;
+  }
+}
+
+@media (min-width: 1200px){
   .ilustracao-bg {
     background: url('../../images/bg-intro-desktop.svg') no-repeat;  
     background-position: top -150px right -400px;
     height: 700px;
+  }
+
+  .ilustracao-bg  p { 
+    color: #9698a6;
   }
 }

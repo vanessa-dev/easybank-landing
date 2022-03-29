@@ -29,14 +29,43 @@ li + li {
  margin-left: 6px;
 }
 
+.header__menu-desk.mobile-ativo {
+  background-color: #fff;
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 90%;
+  height: 200px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px #cecece;
+  text-align: center;
+}
+
+.header__menu-desk.mobile-ativo,
+.header__menu-desk.mobile-ativo ul li {
+  display: block;
+}
+
+.header__menu-desk.mobile-ativo ul li  a {
+  color: #2d314d;
+}
+
 @media (min-width: 768px)
 {
-  .header__menu-desk,
-  .header__conteudo a.botao  {
+  .header__menu-desk {
     display: block;
   }
 
   .header__menu-mobile {
     display: none;
+  }
+}
+
+@media (min-width: 830px) {
+  .header__conteudo a.botao  {
+    display: block;
   }
 }
